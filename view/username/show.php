@@ -4,7 +4,7 @@
     $obj = new usernameController();
     $date = $obj->show($_GET['id']);
 ?>
-<h2 class="text-center">Detalles del registro</h2>
+<h2 class="text-center">Detalles del registro 02</h2>
 <div class="pb-3">
     <a href="index.php" class="btn btn-primary">Regresar</a>
     <a href="edit.php?id=<?= $date[0]?>" class="btn btn-success">Actualizar</a>
